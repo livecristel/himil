@@ -1,0 +1,750 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>Himil</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Place favicon.ico in the root directory -->
+      <link rel="shortcut icon" type="image/x-icon" href="img/logo-removebg.png">
+
+      <!-- CSS here -->
+      <link rel="stylesheet" href="assets/css/bootstrap.css">
+      <link rel="stylesheet" href="assets/css/animate.css">
+      <link rel="stylesheet" href="assets/css/swiper-bundle.css">
+      <link rel="stylesheet" href="assets/css/splide.css">
+      <link rel="stylesheet" href="assets/css/nouislider.css">
+      <link rel="stylesheet" href="assets/css/magnific-popup.css">
+      <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
+      <link rel="stylesheet" href="assets/css/spacing.css">
+      <link rel="stylesheet" href="assets/css/main.css">
+   </head>
+   <body>
+      <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+      <![endif]-->
+
+
+      <!-- pre loader area start -->
+      <div id="loading">
+         <div id="loading-center">
+            <div id="loading-center-absolute">
+               <div class="object" id="object_four"></div>
+               <div class="object" id="object_three"></div>
+               <div class="object" id="object_two"></div>
+               <div class="object" id="object_one"></div>
+            </div>
+         </div>
+      </div>
+      <!-- pre loader area end -->
+
+      <!-- back to top start -->
+      <div class="back-to-top-wrapper">
+         <button id="back_to_top" type="button" class="back-to-top-btn">
+            <svg width="12" height="7" viewBox="0 0 12 7" fill="#102983" xmlns="http://www.w3.org/2000/svg">
+               <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>               
+         </button>
+      </div>
+      <!-- back to top end -->
+
+      <!-- search popup start -->
+      <div class="search__popup">
+         <div class="container">
+            <div class="row">
+               <div class="col-xxl-12">
+                  <div class="search__wrapper">
+                     <div class="search__top d-flex justify-content-between align-items-center">
+                        <div class="search__logo">
+                           <a href="#">
+                              <img src="img/logo-removebg.png" alt="logo" width="150px">
+                           </a>
+                        </div>
+                        <div class="search__close">
+                           <button type="button" class="search__close-btn search-close-btn">
+                              <svg width="18" height="18" viewBox="0 0 18 18" fill="#102983" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                 <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>                                 
+                           </button>
+                        </div>
+                     </div>
+                     <div class="search__form">
+                        <form action="#">
+                           <div class="search__input">
+                              <input class="search-input-field" type="text" placeholder="Type here to search...">
+                              <span class="search-focus-border"></span>
+                              <button type="submit">
+                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="#102983" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.55 18.1C14.272 18.1 18.1 14.272 18.1 9.55C18.1 4.82797 14.272 1 9.55 1C4.82797 1 1 4.82797 1 9.55C1 14.272 4.82797 18.1 9.55 18.1Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M19.0002 19.0002L17.2002 17.2002" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                 </svg> 
+                              </button>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="search-popup-overlay"></div>
+      <!-- search popup end -->
+
+      <!-- offcanvas area start -->
+      <div class="offcanvas__area home-2-pos">
+         <div class="offcanvas__wrapper">
+            <div class="offcanvas__close">
+               <button class="offcanvas__close-btn offcanvas-close-btn">
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="#102983" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M11 1L1 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                     <path d="M1 1L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+               </button>
+            </div>
+            <div class="offcanvas__content">
+               <div class="offcanvas__top mb-50 d-flex justify-content-between align-items-center">
+                  <div class="offcanvas__logo logo">
+                     <a href="#">
+                        <img src="img/logo-removebg.png" alt="logo" width="150px">
+                     </a>
+                  </div>
+               </div>
+               <div class="mobile-menu fix d-lg-none"></div>
+               <div class="tp-mobile-menu-pos"></div>
+              
+               <div class="offcanvas__contact">
+                  <h4 class="offcanvas__title">Contacts</h4>
+                  <div class="offcanvas__contact-content d-flex">
+                     <div class="offcanvas__contact-content-icon">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                     </div>
+                     <div class="offcanvas__contact-content-content">
+                        <a href="https://www.google.com/maps/search/86+Road+Broklyn+Street,+600+New+York,+USA/@40.6897806,-74.0278086,12z/data=!3m1!4b1">39/1, 1st Main Road, NTY Layout, Mysore Road, Bengaluru, Karnataka - 560026 </a>
+                     </div>
+                  </div>
+                  <div class="offcanvas__contact-content d-flex">
+                     <div class="offcanvas__contact-content-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                     </div>
+                     <div class="offcanvas__contact-content-content">
+                        <a href="mailto:info@himiluwave.com"> info@himiluwave.com  </a>
+                     </div>
+                  </div>
+                  <div class="offcanvas__contact-content d-flex">
+                     <div class="offcanvas__contact-content-icon">
+                        <i class="fa-solid fa-phone"></i>
+                     </div>
+                     <div class="offcanvas__contact-content-content">
+                        <a href="tel:080 26982800"> 080 26982800</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="offcanvas__social">
+                  <a class="icon facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a class="icon twitter" href="#"><i class="fab fa-twitter"></i></a>
+                  <a class="icon youtube" href="#"><i class="fab fa-youtube"></i></a>
+                  <a class="icon linkedin" href="#"><i class="fab fa-linkedin"></i></a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="body-overlay"></div>
+      <!-- offcanvas area end -->
+
+
+      <!-- header area start -->
+         <header class="tp-header-2-area tp-header-height p-relative">
+            
+            
+            <div id="header-sticky" class="tp-header-2-bottom header__sticky p-relative">
+               
+               <div class="tp-header-2-bottom-inner p-relative" data-background="about/nav.png">
+                  <div class="container-fluid gx-0">
+                     <div class="row gx-0 align-items-center">
+                        <div class="col-xxl-2 col-xl-2 col-lg-10 col-md-6">
+                        <div class="tp-header-2-main-left d-flex  justify-content-xl-center justify-content-xxl-end p-relative  img-shape">
+                           <div class="tp-header-2-logo">
+                              <a href="#">
+                                 <img src="img/logo-removebg.png" alt="" width="100px" class="logo">
+                              </a>
+                              <img class="logo-shape" src="assets/img/hero/hero-2/logo-shape.png" alt="">
+                           </div>
+                        </div>
+                        </div>
+                        <div class="col-xxl-8 col-xl-10 d-none d-xl-block">
+                           <div class="tp-main-menu-2-area d-flex align-items-center">
+                              <div class="tp-main-menu">
+                                 <nav id="tp-mobile-menu">
+                                    <ul>
+                                       <li >
+                                          <a href="index.html">Home</a>
+                                          
+                                       </li>
+                                       <li class="has-dropdown"><a href="#">About</a>
+                                          <ul class="submenu">
+                                             <li><a href="about.html">Our Company</a></li>
+                                             <li><a href="team.html">Our Team</a></li>
+                                             
+                                          </ul></li>
+                                          <li><a href="product.html">Products</a></li>
+                                       <li class="has-dropdown"><a href="#">Design & Engineering</a>
+                                          <ul class="submenu">
+                                             <li><a href="#">RF & Microwave Components</a></li>
+                                             <li><a href="#">Power Supply</a></li>
+                                             <li><a href="#">Embedded Electronic</a></li>
+                                          </ul>
+                                       </li>
+                                       <li class="has-dropdown">
+                                          <a href="#">Manufacturing</a>
+                                          <ul class="submenu">
+                                             <li><a href="#">PCB Design</a></li>
+                                             <li><a href="#">BGA Rework & Re-Ball</a></li>
+                                             <li><a href="#">PCB Assembly</a></li>
+                                             <li><a href="#">X-Ray & Conformal Coating</a></li>
+                                             <li><a href="#">Cable & Wire Harness</a></li>
+                                             <li><a href="#">System Integration</a></li>
+                                          </ul>
+                                       </li>
+                                       <li><a href="#">Careers</a>
+                                          
+                                       </li>
+                                       <li><a href="#">Contact us</a></li>
+                                    </ul>
+                                 </nav>
+                              </div>
+                           </div>
+                        </div>
+                        
+                        <div class="col-xxl-2 col-xl-3 col-lg-2 col-md-6">
+                           <!-- <div class="tp-header-2-right d-none d-xxl-block">
+                              <div class="tp-header-2-main-right d-flex align-items-center justify-content-xxl-end">
+                                 <div class="tp-header-2-phone d-flex align-items-center">
+                                    <div class="tp-header-2-phone-icon">
+                                       <i class="fa-solid fa-phone"></i>
+                                    </div>
+                                    <div class="tp-header-2-phone-content">
+                                       <span>Phone: <br> <a href="tel:01900678956">+88 1900 6789 56</a></span>
+                                    </div>
+                                 </div>
+                                 <div class="tp-header-2-btn">
+                                    <a href="contact.html">Get an Quatre <i class="fa-regular fa-angle-right"></i></a>
+                                 </div>
+                                 <div class="tp-header-search search-open-btn d-none d-xxl-block">
+                                    <a href="javascript:void(0);"> <i class="fa-regular fa-magnifying-glass"></i></a>
+                                 </div>
+                              </div>
+                           </div> -->
+                           <div class="tp-header-2-mobile-menu d-flex justify-content-end d-block d-xxl-none">
+                              <div class="tp-header-2-hamburger-btn offcanvas-open-btn" data-background="assets/img/icon/header-hamburger-shape.png">
+                                 <button class="hamburger-btn">
+                                    <span>
+                                       <svg width="29" height="24" viewBox="0 0 29 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M0 1.13163C0 0.506972 0.499692 0 1.11538 0H20.4487C21.0644 0 21.5641 0.506972 21.5641 1.13163C21.5641 1.7563 21.0644 2.26327 20.4487 2.26327H1.11538C0.499692 2.26327 0 1.7563 0 1.13163ZM27.8846 10.5619H1.11538C0.499692 10.5619 0 11.0689 0 11.6935C0 12.3182 0.499692 12.8252 1.11538 12.8252H27.8846C28.5003 12.8252 29 12.3182 29 11.6935C29 11.0689 28.5003 10.5619 27.8846 10.5619ZM14.5 21.1238H1.11538C0.499692 21.1238 0 21.6308 0 22.2555C0 22.8801 0.499692 23.3871 1.11538 23.3871H14.5C15.1157 23.3871 15.6154 22.8801 15.6154 22.2555C15.6154 21.6308 15.1157 21.1238 14.5 21.1238Z" fill="currentColor"></path>
+                                       </svg>
+                                    </span>
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+      <!-- header area end -->
+
+      <main>
+
+        <!-- hero area start -->
+        <section class="tp-hero-2-area p-relative" >
+         <video width="100%" autoplay muted loop>
+            <source src="about/vedio.mp4" type="">
+         </video>
+         
+      </section>
+      <!-- hero area end -->
+         
+
+        
+
+          <!-- brand area start -->
+          <div id="mousemove" class="tp-brand-area pt-160 p-relative mt-120 brand-section">
+            <div class="container container-large">
+               <div class="tp-brand-shape">
+                  <img class="bg-shape" src="assets/img/brand/shape-1.png" alt="">
+               </div>
+               <div class="row">
+                  <div class="col-lg-12">
+                     <div class="tp-brand-wrapper">
+                        <div class="tp-brand-shape">
+                           
+                          <img class="shape-3 mousemove__image" src="img/img-4.png" alt="" width="250px">
+                           <img class="shape-4 mousemove__image" src="img/img-5.png" alt="" width="200px">
+                           <img class="shape-5 mousemove__image" src="img/img-6.png" alt="" width="200px">
+                           <img class="shape-6 mousemove__image" src="img/img-7.png" alt="" width="200px">
+                           <img class="shape-7 mousemove__image" src="img/img-8.png" alt="" width="170px">
+                           
+                           <img class="shape-8 mousemove__image" src="img/img-9.png" alt="">
+                           
+                           <img class="shape-9" src="assets/img/brand/shape-3.png" alt="">
+                        </div>
+                        <div class="tp-brand-thumb text-center fadeUp">
+                           <img src="img/why.png" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- brand area end -->
+<!-- support feature area start -->
+<section class="tp-support-feature-area pb-100">
+   <div class="container container-large">
+      <div class="row">
+         <div class="col-lg-4">
+            <div class="tp-support-feature-item fadeleft d-flex p-relative fadeLeft">
+               <div class="tp-support-feature-counter">
+                  <div class="tp-support-feature-thumb">
+                     <img src="assets/img/brand/shape-2.png" alt="">
+                  </div>
+                  <h3 class="support-feature-title"><span data-purecounter-duration="1" data-purecounter-end="6" class="purecounter"></span>+</h3>
+               </div>
+               <div class="tp-support-feature-content">
+                  <h4 class="tp-support-feature-content-title">Years of Experience</h4>
+                 
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-4">
+            <div class="tp-support-feature-item d-flex p-relative">
+               <div class="tp-support-feature-counter">
+                  <div class="tp-support-feature-thumb">
+                     <img src="assets/img/brand/shape-2.png" alt="">
+                  </div>
+                  <h3 class="support-feature-title"><span data-purecounter-duration="4" data-purecounter-end="3" class="purecounter"></span>+</h3>
+               </div>
+               <div class="tp-support-feature-content">
+                  <h4 class="tp-support-feature-content-title">Awards & Certifications</h4>
+                 
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-4">
+            <div class="tp-support-feature-item d-flex p-relative fadeRight">
+               <div class="tp-support-feature-counter">
+                  <div class="tp-support-feature-thumb">
+                     <img src="assets/img/brand/shape-2.png" alt="">
+                  </div>
+                  <h3 class="support-feature-title"><span data-purecounter-duration="4" data-purecounter-end="94" class="purecounter"></span>+</h3>
+               </div>
+               <div class="tp-support-feature-content">
+                  <h4 class="tp-support-feature-content-title">Employees</h4>
+                  
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- support feature area end -->
+         
+         <div class="tp-service-funfact-box mt-90">
+           
+
+   
+   
+            <!-- fun fact area start -->
+            <section class="tp-fun-fact-area pt-50 pb-45 p-relative">
+               <div class="container container-1400">
+                  <div class="tp-fun-fact-shape">
+                     <img class="shape-1" src="assets/img/fun-fact/shape-3.png" alt="">
+                     <img class="shape-3" src="assets/img/fun-fact/shape-3.png" alt="">
+                     
+                  <div class="row">
+                     <!-- <div class="col-lg-2 col-md-4">
+                        <div class="tp-fun-fact-wrapper-box">
+                           <div class="tp-fun-fact-wrapper">
+                              <h3 class="counter-title"> <span data-purecounter-duration="1" data-purecounter-end="6" class="purecounter"></span>+</h3>
+                              <p>Experience</p>
+                           </div>
+                           <div class="tp-fun-fact-wrapper">
+                              <h3 data-purecounter-duration="0" data-purecounter-end="10" class="purecounter counter-title">0 <span></span></h3>
+                              <p>Awards & Certifications</p>
+                           </div>
+                           
+                        </div>
+                     </div> -->
+                     <div class="col-lg-4 col-md-8">
+                        <div class="tp-fun-fact-thumb p-relative">
+                           <img id="reload" src="assets/img/fun-fact/world.png" alt="scroll">
+                        </div>
+                     </div>
+                     <div class="col-lg-6 col-md-12">
+                        <div class="tp-fun-fact-content">
+                           <div class="tp-fun-fact-title-wrapper">
+                             
+                              <h3 class="tp-section-title">Himil uwave Researchco private limited
+                                 <span class="title-left-shape">
+                                    <svg width="194" height="5" viewBox="0 0 194 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M193.649 4.22307C129.517 2.55338 65.7543 2.288 1.66891 4.99709C-0.571625 5.09661 -0.540924 2.60867 1.66891 2.48703C65.34 -0.962917 130.116 -1.06243 193.649 3.70336C194.109 3.73653 194.125 4.23412 193.649 4.22307Z" fill="#05DAC3"/>
+                                       </svg>
+                                 </span>
+                              </h3>
+                              <p>Himil uwave Researchco private limited, established in 2017. Our goal is to develop capability as a ESDM (Electronics System Design & Manufacturer) offering complete solutions for Customers. With ability of sourcing, design and manufacturing, we aim to offer flexibility in services to Customers
+                                 <b>Mr. Suresh Kumar Chopra, Managing Director</b>
+                                 </p>
+                              
+                              <div class="tp-fun-fact-btn">
+                                 <a class="tp-btn " href="#">Know More</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- fun fact area end -->
+         </div>
+
+
+         <!-- business area start -->
+         <section class="tp-business-area p-relative pt-110 pb-60 mt-120 ">
+            <div class="tp-business-shape">
+            </div>
+            <div class="container">
+               <div class="row align-items-center">
+                  <div class="col-lg-6">
+                     <div class="tp-business-thumb-wrapper p-relative">
+                        <div class="tp-business-thumb text-center">
+                           <img src="img/i-1.png" alt="">
+                        </div>
+                        <div class="circle-animation business-4">
+                           <span class="tp-circle-1"></span>
+                        </div>
+                        <div class="circle-animation business-3">
+                           <span class="tp-circle-2"></span>
+                        </div>
+                        <div class="circle-animation business-2">
+                           <span class="tp-circle-3"></span>
+                        </div>
+                        <div class="tp-business-thumb-shape">
+                           <img class="shape-1" src="img/3.png" alt="" width="223px" height="222px" style="border-radius: 10px;">
+                           </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="tp-business-title-wrapper">
+                        
+                        <h2 class="tp-section-title text-rainbow-animation">Design & Engineering
+                           <span class="title-left-shape">
+                              <svg width="194" height="5" viewBox="0 0 194 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M193.649 4.22307C129.517 2.55338 65.7543 2.288 1.66891 4.99709C-0.571625 5.09661 -0.540924 2.60867 1.66891 2.48703C65.34 -0.962917 130.116 -1.06243 193.649 3.70336C194.109 3.73653 194.125 4.23412 193.649 4.22307Z" fill="#05DAC3"></path>
+                              </svg>
+                           </span>
+                        </h2>
+                        <p>RF & Microwave are at the core of technology required to design any product used in telecommunication. With increase in traction for Make In India initiatives, RF & Microwave capability has been gaining significant traction in the Defense & Aerospace segment. With the shift in landscape towards sub systems and systems, our team remains well versed with latest technologies and design trends. </p>
+                         </div>
+                     <div class="col-lg-4 mt-3">
+                        <div class="about__info mt-50 wow fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
+                           <a href="#0" class="btn-one">Explore More <i class="fa-regular fa-arrow-right-long"></i></a>
+                           
+                       </div>
+                    </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- business area end -->
+         <div class="tabs-container">
+            <div class="tabs-block">
+               <div id="tabs-section" class="tabs">
+                
+                  <ul class="tab-head wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay=".5s" >
+                      <li class="top1">
+                         <a href="#tab-1" class="tab-link active"> <span class="material-icons tab-icon">Power Electronics</span> </a>
+                      </li>
+                      <li>
+                         <a href="#tab-2" class="tab-link"> <span class="material-icons tab-icon">Embedded Solutions</span> </a>
+                      </li>
+                      <li>
+                         <a href="#tab-3" class="tab-link"> <span class="material-icons tab-icon">CAD</span> </a>
+                      </li>
+                     
+                             
+                   </ul>
+                
+   
+                  <section id="tab-1" class="tab-body entry-content active active-content" >
+                     <h2 class="text-rainbow-animation">Power Electronics</h2> 
+                            
+                             <p>With power being at the core for any electronics system, the need for efficient, smaller form factor power systems is gaining importance. With push for indigenisation in defense systems, the need to provide a comprehensive design and test capability meeting stringent norms on performance is becoming a key to succcess.</p>
+   
+                             <p> Our design team is capable of designing complex systems meeting Mil grade requirements on operating conditions with full adherence to EMI/EMC, Vibration and thermal requirements. With form factor being a key challenge, the capability to design mechanicals meeting thermal dissipation requirements using innovative designs is part of the core competency and capability</p> <br>
+                     
+                  </section>
+   
+                  <section id="tab-2" class="tab-body entry-content" >
+                     <h2 class="text-rainbow-animation">Embedded Solutions</h2> 
+                     
+                    <p>Digital circuitry design using FPGA is fast becoming an inseparable requirement of any electronics system. The ability to deliver a digital design with capability to develop complex RTL code, Software for system application is fast becoming a key differentiator. </p>
+   
+                    <p>Our full rounded digital design team with expertise in hardware development using FPGA, RTL coding and iOS development are capable of offering entire e2e solution covering generation of schematics, layout, prototyping, hardware bring up, RTL coding and development of software based on end user application. Our experience ranges from working on Xilinx, Intel and other major FPGA platforms delivering solutions to Defense, Automotive, Commercial and other IoT based applications</p>
+             
+             </section>
+   
+                  <section id="tab-3" class="tab-body entry-content" >
+                     <h2 class="text-rainbow-animation">CAD</h2>
+                     
+                    <p>CAD is a crucial skill set in the process of design and manufacturing of any electronics system. Ability to design layout in any of the standard tools like Altium or Allegro from schematics is a competency that is mandatorily part needed as part of the design lifecycle.</p>
+   
+                     <p>Carrying out DFM/DFT along with comprehensive analysis related to signal integrity, power integrity and thermal are some of the key capabilities that our team delivers to manage and delivery high speed designs. Our team handles the CAD work as part of an integrated project to deliver designs and manufacturing for Customers in addition to delivering as a stand alone service to our Customer's electronics design teams <br><br></p>
+             
+            </section>
+   
+                  
+                        
+               </div>
+            </div>
+         </div>
+   
+
+         <section class="mt-60 mb-60" data-background="about/section.png">
+            <div class="container">
+               
+                <div class="row gx-5 align-items-center manufacture">
+                    <div class="col-lg-6">
+                        <div class="tp-business-title-wrapper">
+                           
+                           <h3 class="tp-section-title mt-20">Electronic Manufacturing Services
+                              <span class="title-left-shape">
+                                 <svg width="194" height="5" viewBox="0 0 194 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M193.649 4.22307C129.517 2.55338 65.7543 2.288 1.66891 4.99709C-0.571625 5.09661 -0.540924 2.60867 1.66891 2.48703C65.34 -0.962917 130.116 -1.06243 193.649 3.70336C194.109 3.73653 194.125 4.23412 193.649 4.22307Z" fill="#05DAC3"></path>
+                                 </svg>
+                              </span>
+                           </h3>
+                           <p>EMS With a world class facility spread over 22,000 sft, HIMIL has built infrastructure at par with any other EMS facility across the globe. With fully ESD compliant Class 100k clean room the facility is configured to handle Low volume High mix and medium volume medium mix requirements. As part of futher expansion, manufacturing lines are being planned to handle high volume high mix requirements.</p>
+                         </div>
+                        <div class="row">
+                           <div class="col-lg-6 col-md-6">
+                              <div class="tp-business-box mb-30">
+                                 <div class="tp-business-box-title d-flex align-items-center">
+                                   
+                                    <h4 class="tp-business-title">Manufacturing Capabilities</h4>
+                                 </div>
+                                 <p>ASM line for both single and double sided assemblies</p><br>
+                              </div>
+                           </div>
+                           <div class="col-lg-6 col-md-6">
+                              <div class="tp-business-box mb-30">
+                                 <div class="tp-business-box-title d-flex align-items-center">
+                                    
+                                    <h4 class="tp-business-title">Test capabilities</h4>
+                                 </div>
+                                 <p>2D Automated X-ray inspection</p>
+                                 <p>Automated Optical inspection</p>
+                              </div>
+                           </div>
+                           <div class="about__info  wow fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
+                              <a href="#0" class="btn-one">Explore More <i class="fa-regular fa-arrow-right-long"></i></a>
+                              
+                          </div>
+                           
+                        </div>
+                     </div>
+
+                    <div class="col-lg-6">
+                        <img src="img/img6.jpg" class="img-fluid rounded-30" alt="" style="border-radius: 10px;">
+                    </div>                 
+                </div>
+            </div>
+        </section>
+      
+
+      
+
+      
+       
+
+        
+
+         <!-- brand area start -->
+          <!-- <div class="tp-brand-2-area p-relative pt-60 pb-80">
+            <div class="tp-brand-2-bg" data-background="assets/img/brand/home-2/shape-bg.png"></div>
+            <div class="container">
+               
+               <div class="row">
+                  <div class="col-lg-12">
+                     <div class="tp-industry-title-wrapper text-center">
+                        
+                        <h3 class="tp-section-title">Engineering Process
+                           <span class="title-center-shape">
+                              <svg width="194" height="5" viewBox="0 0 194 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M193.649 4.22307C129.517 2.55338 65.7543 2.288 1.66891 4.99709C-0.571625 5.09661 -0.540924 2.60867 1.66891 2.48703C65.34 -0.962917 130.116 -1.06243 193.649 3.70336C194.109 3.73653 194.125 4.23412 193.649 4.22307Z" fill="#05DAC3"></path>
+                              </svg>
+                           </span>
+                        </h3>
+                     </div>
+                  </div>
+                  <div class="col-lg-5 col-md-4">
+                     <div class="tp-brand-2-item">
+                        <img class="shape-1" src="assets/img/brand/home-2/shape-1.png" alt="">
+                        <img class="shape-2" src="assets/img/brand/home-2/shape-2.png" alt="">
+                     </div>
+                  </div>
+                  <div class="col-lg-2 col-md-4 order-sm-3 order-md-2">
+                     <div class="tp-brand-2-item">
+                        <img class="shape-3" src="assets/img/brand/home-2/shape-3.png" alt="">
+                     </div>
+                  </div>
+                  <div class="col-lg-5 col-md-4 order-sm-2 order-md-3">
+                     <div class="tp-brand-2-item">
+                        <img class="shape-4" src="assets/img/brand/home-2/shape-4.png" alt="">
+                        <img class="shape-5" src="assets/img/brand/home-2/shape-5.png" alt="">
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-lg-5 col-md-4">
+                     <div class="tp-brand-2-item">
+                        
+                        <img class="shape-2" src="assets/img/brand/home-2/shape-2.png" alt="">
+                     </div>
+                  </div>
+                  <div class="col-lg-2 col-md-4 order-sm-3 order-md-2">
+                     <div class="tp-brand-2-item">
+                        <img class="shape-3" src="assets/img/brand/home-2/shape-3.png" alt="">
+                     </div>
+                  </div>
+                  <div class="col-lg-5 col-md-4 order-sm-2 order-md-3">
+                     <div class="tp-brand-2-item">
+                        <img class="shape-4" src="assets/img/brand/home-2/shape-4.png" alt="">
+                        <img class="shape-5" src="assets/img/brand/home-2/shape-5.png" alt="">
+                     </div>
+                  </div>
+               </div>
+              
+            </div>
+         </div>  -->
+         <!-- brand area end -->
+
+
+         
+      </main>
+
+      <!-- footer area start -->
+      <footer class="tp-footer-2-area p-relative">
+         <div class="tp-footer-overlay" >
+            <div class="tp-footer-2-shape">
+               <img src="assets/img/footer/shape-1.png" alt="">
+                </div>
+            <div class="container-fulid foot-section">
+            <div class="tp-footer-2-main-area">
+               <div class="row">
+                  <div class="col-xl-12 col-lg-5 col-md-6 mb-20">
+                     <h1 style="color: white;" class="logo-name">Himil - <span style="color: rgb(255, 255, 255);"> Innovation at work.</span></h1>
+                     
+                  </div>
+                  <div class="col-xl-3 col-lg-3 col-md-6">
+                     <div class="tp-footer-widget tp-footer-2-col-2">
+                        <h3 class="tp-footer-widget-title">Quick Links</h3>
+                        <div class="tp-footer-widget-content">
+                           <ul>
+                              <li><a href="#">Home</a></li>
+                              <li><a href="#">About</a></li>
+                              <li><a href="#">Careers</a></li>
+                              <li><a href="#"> Contact Us</a></li>
+                           </ul>
+                        </div>
+                     </div> 
+                  </div>
+
+                  <div class="col-xl-3 col-lg-3 col-md-6">
+                     <div class="tp-footer-widget tp-footer-2-col-2 foot">
+                        <h3 class="tp-footer-widget-title">DESIGN & ENGINEERING</h3>
+                        <div class="tp-footer-widget-content">
+                           <ul>
+                              <li><a href="#">RF & Microwave Components</a></li>
+                              <li><a href="#">Power Supply</a></li>
+                              <li><a href="#">Embedded Electronic</a></li>
+                             
+                           </ul>
+                        </div>
+                     </div> 
+                  </div>
+                  <div class="col-xl-3 col-lg-3 col-md-6">
+                     <div class="tp-footer-widget tp-footer-2-col-2 foot-1">
+                        <h3 class="tp-footer-widget-title">MANUFACTURING</h3>
+                        <div class="tp-footer-widget-content">
+                           <ul>
+                              <li><a href="#">PCB Design</a></li>
+                              <li><a href="#">BGA Rework & Re-Ball</a></li>
+                              <li><a href="#">PCB Assembly</a></li>
+                              <li><a href="#">X-Ray & Conformal Coating</a></li>
+                              <li><a href="#">Cable & Wire Harness</a></li>
+                              <li><a href="#">System Integration</a></li>
+                              
+                           </ul>
+                        </div>
+                     </div> 
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6">
+                     <div class="tp-footer-widget tp-footer-2-col-3 foot-2">
+                        <h3 class="tp-footer-widget-title">Location</h3>
+                        <div class="tp-footer-widget-content">
+                           <div class="tp-footer-info">
+                              <div class="tp-footer-main-location">
+                                 <a href="#">
+                                    <i class="fa-sharp fa-light fa-location-dot"></i> 39/1, 1st Main Road, NTY Layout, Mysore Road, Bengaluru, Karnataka - 560026</a>
+                              </div>
+                              <div class="tp-footer-main-mail">
+                                 <a href="callto:08026982800"><i class="fa-regular fa-phone"></i> 08026982800</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="tp-footer-2-menu-area p-relative">
+               <div class="row ">
+                  
+                 <p>Copyright © 2024 <a href="https://livecristle.in" style="color: rgb(0, 204, 255);">Live Cristle</a> All rights reserved</p>
+                  
+               </div>
+            </div>
+            </div>
+         </div>
+      </footer>
+     <!-- footer area end -->
+
+
+      <!-- JS here -->
+      <script src="assets/js/vendor/jquery.js"></script>
+      <script src="assets/js/vendor/waypoints.js"></script>
+      <script src="assets/js/bootstrap-bundle.js"></script>
+      <script src="assets/js/meanmenu.js"></script>
+      <script src="assets/js/swiper-bundle.js"></script>
+      <script src="assets/js/splide.js"></script>
+      <script src="assets/js/purecounter.js"></script>
+      <script src="assets/js/nouislider.js"></script>
+      <script src="assets/js/magnific-popup.js"></script>
+      <script src="assets/js/nice-select.js"></script>
+      <script src="assets/js/wow.js"></script>
+      <script src="assets/js/gsap.min.js"></script>
+      <script src="assets/js/split-text.min.js"></script>
+      <script src="assets/js/scrool-triger.js"></script>
+      <script src="assets/js/scrollMagic.min.js"></script>
+      <script src="assets/js/parallax-scroll.js"></script>
+      <script src="assets/js/animation.gsap.min.js"></script>
+      <script src="assets/js/isotope-pkgd.js"></script>
+      <script src="assets/js/imagesloaded-pkgd.js"></script>
+      <script src="assets/js/jquery-appear.js"></script>
+      <script src="assets/js/jquery-knob.js"></script>
+      <script src="assets/js/ajax-form.js"></script>
+      <script src="assets/js/main.js"></script>
+      <script src="main-silde.js"></script>
+   </body>
+</html>
